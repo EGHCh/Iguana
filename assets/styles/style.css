@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    color: #ffffff;
+    background-color: #000000;
+}
+h1 {
+    font-weight: 400;
+}
+h2 {
+    font-weight: 400;
+}
+h3 {
+    font-weight: 300;
+}
+p{
+    font-weight: 300;
+}
+
+/*
+* HEADER
+*/
+.header {
+    text-align: center;
+}
+.header__foto {
+    width: 100%;
+}
+
+/*
+* BLOG
+*/
+
+.blog {
+    align-items: flex-start;
+    display: flex;  
+    justify-content: space-evenly; 
+    padding: 10%;
+}
+.blog__imagen {
+    max-width: 400px ;
+    width: 45%;
+}
+
+/*
+* CARACTERISCAS
+*/
+.caracteristicas {
+    background-color: #1E1A13;
+    text-align: center;
+    padding: 2em;
+}
+.caracteristicas__titulo {
+    margin-bottom: 2em;
+}
+.lista-caracteristicas ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/*
+*  GALERIA
+*/
+.galeria {
+    padding: 1em;
+    margin-top: 2em;
+    display: flex;
+    justify-content: space-evenly
+}
+.galeria__foto {
+    width: 25%;
+}
+
+/*
+* FOOTER
+*/
+.footer {
+    background-color: #1E1A13;
+    text-align: center;
+    padding: 1.5em;
+    margin-top: 2em;
+}
+.footer a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.footer a:visited{
+    color: #ffffff;
+}
